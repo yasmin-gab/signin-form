@@ -31,13 +31,13 @@ form input[type="submit"] {
     background: red;
     color: white;
     font-weight: bold;
-    margin-bottom: 20px; /* adicionei margin-bottom */
+    margin-bottom: 20px;
 }
 form .input-container input {
     border: 1px solid #e4e4e4;
     color: #818181; 
     padding: 0 55px 0 25px; 
-    font-size: 1rem; /* adicionei font-size */
+    font-size: 1rem;
 }
 form .input-container input::placeholder {
     color: #818181;
@@ -50,14 +50,14 @@ svg {
 }
 .options-container {
     padding: 0 20px;
-    margin: 25px auto; /* mudou de 20px para 25px */
+    margin: 25px auto;
     color: #818181;
 }
 .options-container .checkbox-container, .options-container a { /* mudou de apenas 'a' para '.options-container a' */
     display: inline-block;
     width: 50%;
 }
-a { /* mudou de '.options-container a' para apenas 'a' */
+a {
     text-align: right;
     color: red;
     text-decoration: none;
@@ -67,7 +67,7 @@ form p {
     text-align: center;
 }
 form .social-media-cont {
-    margin: 20px auto; /* mudei de 0 para 20px */
+    margin: 20px auto;
     width: fit-content;
 }
 form .social-media-cont .icon-container {
@@ -95,7 +95,5 @@ hr {
 }
 .footer {
     width: fit-content;
-    margin: 20px auto; /* mudeo de 0 para 20px */
+    margin: 20px auto;
 }
-
-
